@@ -3,7 +3,7 @@ steps:
   build-the-image:
     type: build
     description: Builds my service
-    image_name: senthex/otofrontend
+    image_name: Senthex/otofrontend
     tag: ${{CF_SHORT_REVISION}}
   push-the-image:
     type: push
